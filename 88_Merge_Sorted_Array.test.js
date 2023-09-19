@@ -9,7 +9,6 @@ describe('88_Merge_Sorted_Array', () => {
         merge(nums1, 3, nums2, 3)
 
         expect(nums1).toStrictEqual([1, 2, 2, 3, 5, 6])
-        console.log('nums1 :>> ', nums1);
     })
     test('case 2', () => {
         let nums1 = [1]
