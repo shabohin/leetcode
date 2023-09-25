@@ -1,7 +1,7 @@
 import { describe, test, expect } from 'bun:test'
 import { removeElement } from './27_Remove_Element'
 
-describe('27_Remove_Element.test', () => {
+describe('27_Remove_Element', () => {
     test('case 1', () => {
         const nums = [3, 2, 2, 3]
         const val = 3
